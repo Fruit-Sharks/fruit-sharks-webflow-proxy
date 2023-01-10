@@ -16,11 +16,11 @@ const nextConfig = {
     return [
       {
         source: "/de",
-        destination: "https://altes-neuwirtshaus.webflow.io",
+        destination: "https://altesneuwirtshaus.webflow.io",
       },
       {
         source: "/de/:slug*",
-        destination: "https://altes-neuwirtshaus.webflow.io/:slug*",
+        destination: "https://altesneuwirtshaus.webflow.io/:slug*",
       },
     ];
   },
