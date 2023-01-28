@@ -9,6 +9,36 @@ const nextConfig = {
         destination: "/de",
         permanent: false,
       },
+      {
+        source: "/aktuelles",
+        destination: "/de/aktuelles",
+        permanent: false,
+      },
+      {
+        source: "/aktuelles/:slug*",
+        destination: "/de/aktuelles/:slug*",
+        permanent: false,
+      },
+      {
+        source: "/impressum",
+        destination: "/de/legal/impressum",
+        permanent: false,
+      },
+      {
+        source: "/legal/impressum",
+        destination: "/de/legal/impressum",
+        permanent: false,
+      },
+      {
+        source: "/datenschutz",
+        destination: "/de/legal/datenschutz",
+        permanent: false,
+      },
+      {
+        source: "/legal/datenschutz",
+        destination: "/de/legal/datenschutz",
+        permanent: false,
+      },
     ];
   },
 
