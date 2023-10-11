@@ -10,16 +10,6 @@ const nextConfig = {
         permanent: false,
       },
       {
-        source: "/aktuelles",
-        destination: "/de/aktuelles",
-        permanent: false,
-      },
-      {
-        source: "/aktuelles/:slug*",
-        destination: "/de/aktuelles/:slug*",
-        permanent: false,
-      },
-      {
         source: "/impressum",
         destination: "/de/legal/impressum",
         permanent: false,
@@ -46,11 +36,11 @@ const nextConfig = {
     return [
       {
         source: "/de",
-        destination: "https://altesneuwirtshaus.webflow.io",
+        destination: "https://fruit-sharks-fandabydozy-site.webflow.io",
       },
       {
         source: "/de/:slug*",
-        destination: "https://altesneuwirtshaus.webflow.io/:slug*",
+        destination: "https://fruit-sharks-fandabydozy-site.webflow.io/:slug*",
       },
     ];
   },
